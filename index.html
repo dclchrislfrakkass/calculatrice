@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form name="calculator">
+        <div id="enter">
+        </div> 
+        
+        <div id="enterOne"> 
+            <input id="input1" placeholder="0000">
+            
+            
+        </div>
+              
+            <select id="mathMedthod" onchange="method()">
+                <option value="addition">addition</option>
+                <option value="multiplication">multiplication</option>
+                <option value="soustraction">soustraction</option>
+                <option value="division">division</option>
+                <option value="modulo">modulo</option>
+                
+            </select>
+            
+        </div>
+        
+        <div id="enterTwo">
+            <input id="input2" placeholder="0000">
+            
+        </div>
+        
+        <div id="calcResults">
+            
+            
+            <div id="equal">
+                Calculer 
+            </div>
+                
+                <div id="results">
+                    
+                    -----------
+                    
+                </div>
+                
+                
+                <div id="choiceTest"> + </div>
+            </div>
+            <!-- <input type="button" onclick="reset()" value="Reset"> -->
+        </form>
+        
+        
+        <script src="js/main.js"></script>   
+    </body>
+    </html>

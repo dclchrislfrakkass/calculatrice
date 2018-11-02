@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+input,select   {
+    height: 9vmax;
+    max-width: 90%;
+    font-size: 7vmax;
+    margin: 2vmax;
+    text-align: center;
+    text-align-last: center;
+}
+
+#equal {
+    max-width: 90%;
+    background-color: white;
+    height: 10vmax;
+    font-size: 9vmax;
+    margin: 2vmax;
+    padding-left: 3vmax;
+    padding-right: 3vmax;
+    text-align: center;
+
+}
+#results {
+    max-width: 90%;
+    border: 2px solid black;
+    height: 10vmax;
+    font-size: 10vmax;
+    max-width: 90%;
+    margin: 2vmax;
+    background-color: white;
+    text-align: center;
+}
+#choiceTest {
+    background-color: white;
+}
